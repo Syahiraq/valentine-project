@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Menyesuaikan dengan layar ponsel */
+    max-width: 450px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #D40000;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+button {
+    background-color: #FF1493;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 300px; /* Menyesuaikan dengan layar */
+}
+
+button:hover {
+    background-color: #FF69B4;
+}
+
+button:focus {
+    outline: none;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #FF1493;
+    font-weight: bold;
+}
+
+.gift-image {
+    margin-top: 20px;
+    width: 200px;
+    animation: scaleIn 1s ease-out;
+}
+
+.hidden {
+    display: none
+}
